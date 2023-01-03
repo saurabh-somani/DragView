@@ -8,6 +8,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainFragment">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/image_9_16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,16:9" />
+
     <View
         android:id="@+id/top_line"
         android:layout_width="1dp"
