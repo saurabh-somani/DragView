@@ -67,7 +67,7 @@
         <ImageView
             android:id="@+id/start_dotted_line"
             android:layout_width="0dp"
-            android:layout_height="2dp"
+            android:layout_height="4dp"
             android:src="@drawable/dotted_line"
             app:layout_constraintBottom_toBottomOf="@id/draggable_thumb"
             app:layout_constraintEnd_toStartOf="@id/draggable_thumb"
@@ -76,7 +76,7 @@
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_height="2dp"
+            android:layout_height="4dp"
             android:src="@drawable/dotted_line"
             app:layout_constraintBottom_toBottomOf="@id/draggable_thumb"
             app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +139,7 @@
         <ImageView
             android:id="@+id/bottom_dotted_line"
             android:layout_width="0dp"
-            android:layout_height="2dp"
+            android:layout_height="4dp"
             android:src="@drawable/dotted_line"
             app:layout_constraintBottom_toBottomOf="@id/draggable_thumb_2"
             app:layout_constraintEnd_toEndOf="parent"
